@@ -1,7 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-      <!-- Favicon and title -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  
+	<!-- Favicon and title -->
 	<link rel="shortcut icon" type="image/jpg" href="https://rjrajujha.github.io/web/assets/favicon/favicon.ico"/>
 	<link rel="apple-touch-icon" href="https://rjrajujha.github.io/web/assets/favicon/favicon.ico">
 	<link rel="icon" type="image/png" href="https://rjrajujha.github.io/web/assets/favicon/favicon.ico">
@@ -133,6 +137,113 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 </script>
+	  
+    <!-- web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+   
+    <!-- //web fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+  </head>
+  <body>
+
+<section class="rweb-bootstrap-header">
+  <nav class="navbar navbar-expand-lg navbar-light py-lg-3 py-2">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Raju Jha</a>
+      <!-- if logo is image enable this   
+    <a class="navbar-brand" href="#index.html">
+        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+    </a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon fa fa-bars"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+</section>
+<!-- grids block 5 -->
+ <section class="rweb-footer-29-main" id="footer">
+  <div class="footer-29 text-center">
+      <div class="container">
+        
+        <div class="main-social-footer-29">
+          <a href="https://rjrajujha.github.io/web/assets/social_links/facebook.html" class="Facebook"><span class="fa fa-facebook"></span></a>
+          <a href="https://rjrajujha.github.io/web/assets/social_links/twitter.html" class="Twitter"><span class="fa fa-twitter"></span></a>
+          <a href="https://rjrajujha.github.io/web/assets/social_links/linkedin.html" class="Linkedin"><span class="fa fa-linkedin"></span></a>
+	  <a href="https://rjrajujha.github.io/web/assets/social_links/curriculumvitae.html" class="Curriculum vitae"><span class="fa fa-stack-overflow"></span></a>
+          <a href="https://rjrajujha.github.io/web/assets/social_links/github.html" class="Github"><span class="fa fa-github"></span></a>
+          </div>
+          <div class="bottom-copies text-center">
+              <p class="copy-footer-29">© 2020 Raju Jha | Designed by <a href="#index.html">RJ</a></p>
+               
+          </div>
+      </div>
+  </div>
+   <!-- move top -->
+  <button onclick="topFunction()" id="movetop" title="Go to top">
+              <span class="fa fa-angle-up"></span>
+                 </button>
+                 <script>
+                     // When the user scrolls down 20px from the top of the document, show the button
+                     window.onscroll = function () {
+                         scrollFunction()
+                     };
+              
+                     function scrollFunction() {
+                         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                             document.getElementById("movetop").style.display = "block";
+                         } else {
+                             document.getElementById("movetop").style.display = "none";
+                         }
+                     }
+              
+                     // When the user clicks on the button, scroll to the top of the document
+                     function topFunction() {
+                         document.body.scrollTop = 0;
+                         document.documentElement.scrollTop = 0;
+                     }
+                 </script>
+                 <!-- /move top -->
+</section>
+<!-- // grids block 5 -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- //footer-28 block -->
+</section>
+
+<script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
 
 </body>
+
 </html>
