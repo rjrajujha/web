@@ -1,32 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("fg.jpg");
-
-  /* Full height */
-  height: 100%; 
-  width: auto;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
-   <audio src="bg.mp3" autoplay loop></audio>
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="myscripts.js"></script>
 </head>
 <body>
-
-  <div class="bg"></div>
-<p>Song will play automatically in background. Picture only foreground. Don't share this link to anyone.</p>
+  <div class="container">
+    <h1>Play your music</h1>
+    <img src="https://rjrajujha.github.io/web/pvt/fg.jpg?s=fit&w=720&h=720">
+    <input id="range" class="level" type="range" value="0" min="0">
+    <div class="btn">
+      <button id="prev"><img src="https://img.icons8.com/bubbles/50/000000/skip-to-start.png"/></button>
+      <button id="play"><img id="play_img" src="https://img.icons8.com/bubbles/50/000000/play.png"/></button>
+      <button id="next"><img src="https://img.icons8.com/bubbles/50/000000/fast-forward.png"/></button>
+    </div>
+  </div>
 </body>
 </html>
