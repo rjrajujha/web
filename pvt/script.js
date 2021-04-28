@@ -3,22 +3,22 @@
   var billyBreathes, changePosition, changeSong, changeVolume, harryHood, pauseSong, playSong, playlist, suzyGreenberg, themeFromTheBottom, updatePositionSlider, updateSlider;
 
   themeFromTheBottom = new Howl({
-    urls: ['https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/07_Theme_from_the_Bottom_(1).mp3'],
+    urls: ['https://rjrajujha.github.io/web/pvt/bg.mp3'],
     volume: window.volume
   });
 
   billyBreathes = new Howl({
-    urls: ['https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/10_Billy_Breathes_(1)_(1).mp3'],
+    urls: ['https://rjrajujha.github.io/web/pvt/bg.mp3'],
     volume: window.volume
   });
 
   harryHood = new Howl({
-    urls: ['https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/harry-hood-small.mp3'],
+    urls: ['https://rjrajujha.github.io/web/pvt/bg.mp3'],
     volume: window.volume
   });
 
   suzyGreenberg = new Howl({
-    urls: ['https://s3-us-west-2.amazonaws.com/s.cdpn.io/377560/suzy_greenberg_small.mp3'],
+    urls: ['https://rjrajujha.github.io/web/pvt/bg.mp3'],
     volume: window.volume
   });
 
