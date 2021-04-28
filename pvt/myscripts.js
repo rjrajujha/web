@@ -1,4 +1,4 @@
-music_name = "http://rjrajujha.github.io/web/pvt/bg.mp3";
+music_name = "https://rjrajujha.github.io/web/pvt/bg.mp3";
 let play_btn = document.querySelector("#play");
 let next_btn = document.querySelector("#next");
 let prev_btn = document.querySelector("#prev");
